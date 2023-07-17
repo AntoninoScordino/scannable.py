@@ -17,5 +17,8 @@ parser.add_argument('-s', '--size', help='size of the scannable output')
 
 args = parser.parse_args()
 
+def main():
+    scannable = Generate(args.format, args.background, args.text, args.size, args.link)
+
 if __name__ == '__main__':
     main()

@@ -31,3 +31,6 @@ class Generate:
             # does not. For example, https://open.spotify.com/artist/3srPc1Mytv5GmTWqsQuoXW.
             if '$' in link:
                 link = link.replace("$","")
+
+        print(' :: Your scannable code is:\n' +
+            '    https://scannables.scdn.co/uri/plain/' + self.format + '/' + self.background + '/' + self.text + '/' + self.size + '/' + link)
