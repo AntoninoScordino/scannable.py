@@ -4,12 +4,21 @@ This projects aims to generate simple Spotify codes that are scannable throught 
 
 ## Usage
 ```
-usage: scannable.py [-h]
+usage: scannable.py [-h] [-f FORMAT] [-b BACKGROUND] [-t TEXT] [-s SIZE] link
 
 Generate Spotify scannable code through a Python script.
 
+positional arguments:
+  link                  Spotify link to generate a scannable image from
+
 options:
-  -h, --help  show this help message and exit
+  -h, --help            show this help message and exit
+  -f FORMAT, --format FORMAT
+                        file format for the scannable output
+  -b BACKGROUND, --background BACKGROUND
+                        background color for the scannable output
+  -t TEXT, --text TEXT  text color for the scannable output
+  -s SIZE, --size SIZE  size of the scannable output
 ```
 
 ## Licensing 
