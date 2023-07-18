@@ -2,6 +2,14 @@
 ## What is this?
 This projects aims to generate simple Spotify codes that are scannable throught the official Spotify app on Android/iOS. Generated scannables will be outputted to the `out/` directory with the Spotify UID as name.
 
+## Example
+```bash
+$ python scannable/main.py https://open.spotify.com/artist/6J7biCazzYhU3gM9j1wfid -s 300 
+   :: Your scannable code is:
+      https://scannables.scdn.co/uri/plain/png/000000/white/300/spotify:artist:6J7biCazzYhU3gM9j1wfid
+```
+![](https://scannables.scdn.co/uri/plain/png/000000/white/300/spotify:artist:6J7biCazzYhU3gM9j1wfid)
+
 ## Usage
 ```
 usage: scannable.py [-h] [-f FORMAT] [-b BACKGROUND] [-t TEXT] [-s SIZE] link
