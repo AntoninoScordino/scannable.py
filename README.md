@@ -21,6 +21,12 @@ options:
   -s SIZE, --size SIZE  size of the scannable output
 ```
 
+### Informations
+ * For the `--format` parameter, you are supposed to choose a format file from `png`, `jpeg` and `svg`;
+ * for the `--background` parameter, you are supposed to insert a HEX code;
+ * for the `--text` parameter, you are supposed to insert either `white` or `black`;
+ * for the `--size` parameter, you are supposed to insert a value between `256` and `2047`.
+
 ## Licensing 
 ```
             DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
